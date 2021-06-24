@@ -1,0 +1,138 @@
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 450px;
+    background: url(/images/header.jpg) no-repeat center top; 
+	image-rendering: auto; 
+	background-size: cover ;	
+}
+.nav:hover{
+	color: rgb(223, 30, 4);
+}
+.nav{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: grey;
+	font-size: 11px;
+	font-style: italic;
+	text-transform: uppercase;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+}
+.logo{
+	border-radius: 10%;
+	border-color: white;
+	border-style: solid;
+}
+.contenido{
+	text-align:justify;
+	font-size: 12px;
+}
+.titulo{
+	text-align: center;
+}
+figcaption{
+	color:rgba(44, 3, 3, 0.966);
+}
+.icono{
+	width: 70%;
+	height: 70%;
+	border-radius: 30%;
+	border-color: rgb(77, 74, 74);
+	border-style: solid;
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+.resaltar:hover{
+	border-style: solid;
+	border-color: rgb(143, 153, 143);
+}
+.rrss{
+	width: 10%;
+	height: 10%;
+	align-items: center;
+	border-radius: 20%;
+}
+.pie{
+	background: grey;
+}
+.contenido.quien{
+	background: rgb(247, 228, 233);
+	color: grey;	
+	padding: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.contenido.servicios{
+	background: rgb(243, 230, 189);
+	color: rgb(119, 25, 25);
+	padding: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	float: left;
+}
+.contenido.contacto{
+	text-align: center;
+	background:burlywood;
+	padding: 1%;
+}
+.contenido.galeria{
+	background: rgb(243, 230, 189);
+	color: rgb(119, 25, 25);
+	padding: 1%;
+	align-items: center;
+	margin-top: 0%;
+	padding-left: 4%;
+	padding-right: 4%;
+	float: left;
+}
+.contenido.redes{
+	background: burlywood;
+	text-align: center;
+}
+@media(min-width:700px){
+	.nav{
+		font-size: 17px;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.icono{
+		width: 160px;
+		height: 190px;
+	}
+	.contenido{
+		font-size: 17px;
+	}
+	li{
+		width: 44%;
+		float: left;
+	}
+	.rrss{
+		width: 5%;
+		height: 5%;
+	}
+}
+@media(min-width:1000px){
+	.nav{
+		font-size: 20px;
+		padding-right: 8%;
+		padding-left: 8%;
+	}
+	.icono{
+		width: 150px;
+		height: 190px;
+	}
+	.contenido{
+		font-size: 15px;
+	}
+	li{
+		width: 23%;
+		float: left;
+	}
+	.rrss{
+		width: 5%;
+		height: 5%;
+	}
+}
