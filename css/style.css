@@ -3,7 +3,7 @@ header{
     justify-content:center;
     align-items:center;
     height: 450px;
-    background: url(/images/header.jpg) no-repeat center top; 
+    background: url(./images/header.jpg) no-repeat center top; 
 	image-rendering: auto; 
 	background-size: cover ;	
 }
